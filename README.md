@@ -95,7 +95,7 @@ Created an interactive dashboard with:
 - Line chart: Layoff trends over time (2020-2024)
 - Clean, professional design for insightful communication
 
-image...
+![Image Alt](https://github.com/computershy/Air-Quality/blob/main/Layoffs.png)
 
 **Key Insights**
 
