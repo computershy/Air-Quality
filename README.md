@@ -57,6 +57,7 @@ SELECT
 FROM layoffs_staging2
 GROUP BY industry
 ORDER BY total_employees_laid_off DESC;
+ ```
 
 ```sql
 -- Industry with highest percentage laid off
@@ -65,6 +66,7 @@ ORDER BY total_employees_laid_off DESC;
    WHERE percentage_laid_off IS NOT NULL
    GROUP BY industry
    ORDER BY avg_percentage DESC;
+ ```
 
 ```sql
 -- Annual layoff trends
@@ -76,6 +78,7 @@ SELECT
 FROM layoffs_staging2
 GROUP BY YEAR(`date`)
 ORDER BY layoff_year DESC;
+ ```
 
 ```sql
 -- Top companies by total layoffs
@@ -85,6 +88,7 @@ ORDER BY layoff_year DESC;
    GROUP BY company
    ORDER BY total_layoffs DESC
    LIMIT 10;
+ ```
 
 **Tableau Dashboard**
 
