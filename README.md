@@ -11,7 +11,6 @@ This project demonstrates an end-to-end data analysis workflow:
 - Data Visualization 
 - Business Insights & Recommendations
 
-Turns data into decisions, highlighting skill and impact.
 
 [Global Layoffs Dataset Source](https://www.kaggle.com/datasets/theakhilb/layoffs-data-2022)
 
@@ -22,7 +21,7 @@ Each record represents a specific layoff event, capturing details about the comp
 
 With this data, we can identify which sectors faced the greatest challenges, track how layoff trends evolved year-over-year, and understand regional differences in workforce reductions.
 
-Initial data cleaning was performed to:
+Data cleaning was done to:
 
 - Remove duplicate layoff records
 - Standardize company names and industry categories
@@ -44,7 +43,7 @@ The 2020-2024 period saw unprecedented workforce volatility across industries. K
 
 - Removed blanks & duplicates
 - Standardized company names and industry categories
--Validated date formats and numeric fields
+- Validated date formats and numeric fields
 
 2. SQL Analysis
    To answer business questions, I wrote some SQL queries:
@@ -111,8 +110,8 @@ Created an interactive dashboard with:
 
 **Business Recommendations**
 
-For Job Seekers: Broaden your skill set and explore fields that tend to be more stable.
-For Companies: The U.S. labor market reacts strongly to economic changes—plan your staffing with that in mind
-For Analysts: Track both raw numbers and percentage changes to fully understand industry trends.
+- For Job Seekers: Broaden your skill set and explore fields that tend to be more stable
+- For Companies: The U.S. labor market reacts strongly to economic changes. Plan your staffing with that in mind
+- For Analysts: Track both raw numbers and percentage changes to fully understand industry trends
 
 
