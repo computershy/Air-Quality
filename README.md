@@ -2,10 +2,9 @@
 
 **Project Overview**
 
-This project analyses a global layoffs dataset from Kaggle spanning 2020-2024, focusing on workforce reductions across industries, companies, and geographic regions. The goal is to understand which sectors were hit hardest, identify temporal trends in layoffs, and uncover patterns that reveal how different industries responded to economic pressures during this period. These insights could help job seekers, investors, and business strategists understand market dynamics and make informed decisions.
+This project analyzes layoffs data to identify trends and patterns in workforce reductions. The dataset covers the period from 2020 to 2024.
 
-This project demonstrates an end-to-end data analysis workflow:
-
+Workflow:
 - Data Cleaning 
 - Exploratory Analysis 
 - Data Visualization 
@@ -14,12 +13,12 @@ This project demonstrates an end-to-end data analysis workflow:
 
 [Global Layoffs Dataset Source](https://www.kaggle.com/datasets/theakhilb/layoffs-data-2022)
 
-**Data Structure Overview**
+**Data Overview**
 
-The dataset contains records of layoff events across multiple companies and industries worldwide.
-Each record represents a specific layoff event, capturing details about the company, industry sector, geographic location, number of employees laid off, percentage of workforce affected, and the date of the layoff announcement.
 
-With this data, we can identify which sectors faced the greatest challenges, track how layoff trends evolved year-over-year, and understand regional differences in workforce reductions.
+The dataset contains records of layoff events across multiple companies and industries worldwide. 
+
+Each record represents a specific layoff event, industry sector, geographic location, number of employees laid off, percentage of workforce affected, and the date of the layoff announcement.
 
 Data cleaning was done to:
 
@@ -27,9 +26,7 @@ Data cleaning was done to:
 - Standardize company names and industry categories
 - Validate date formats and numeric fields
 
-**Business Problem**
-
-The 2020-2024 period saw unprecedented workforce volatility across industries. Key questions include:
+**Key Questions**
 
 - Which industries were most vulnerable?
 - How did layoffs trend over time?
@@ -46,7 +43,7 @@ The 2020-2024 period saw unprecedented workforce volatility across industries. K
 - Validated date formats and numeric fields
 
 2. SQL Analysis
-   To answer business questions, I wrote some SQL queries:
+    While a full EDA was done in SQL, we will highlight only the queries done to find insights on the key questions: 
 ```sql
 -- Layoffs by industry sector
 -- Purpose: Identify which industries were hit hardest by workforce reductions
@@ -91,27 +88,22 @@ ORDER BY layoff_year DESC;
 
 **Tableau Dashboard**
 
-Created an interactive dashboard with:
-
-- KPI Cards: Total companies affected, top industry, peak layoff year
-- Bar charts: Top N companies, industries, and countries by layoffs
-- Line chart: Layoff trends over time (2020-2024)
-- Clean, professional design for insightful communication
+Created an interactive dashboard:
 
 ![Image Alt](https://github.com/computershy/Air-Quality/blob/main/Layoffs.png)
 
 **Key Insights**
 
-- Retail Leads in Volume: Retail experienced the highest total layoffs, indicating widespread restructuring in consumer-facing sectors
-- Food industry Hit Hardest Proportionally: Food had the highest average percentage of workforce laid off, suggesting deeper cuts relative to company size
-- 2023 Was the Peak Year
-- Geographic Concentration: USA led in total layoffs, with India second
-- Big Tech Drives Numbers: Amazon, Meta, and Tesla topped the list, showing how major employers set industry-wide trends
+- Retail Leads in Volume: Retail experienced the highest amount of total layoffs, indicating widespread restructuring in consumer-facing roles.
+- Food industry Hit Hardest Proportionally: Food had the highest average percentage of workforce laid off which could suggest that deeper cuts were made relative to company size.
+- 2023 Was the Peak Year: 2023 saw the highest total laid off.
+- Geographic Concentration: USA led in total layoffs, with India second.
+- Big Tech Drives Numbers: Amazon, Meta, and Tesla topped the list, showing how major employers have set trends concerning layoffs.
 
 **Business Recommendations**
 
-- For Job Seekers: Broaden your skill set and explore fields that tend to be more stable
-- For Companies: The U.S. labor market reacts strongly to economic changes. Plan your staffing with that in mind
-- For Analysts: Track both raw numbers and percentage changes to fully understand industry trends
+- For Job Seekers: Broaden your skill set and explore fields that tend to be more stable.
+- For Companies: The U.S. labor market reacts strongly to economic changes. Plan your staffing with that in mind.
+- For Analysts: Track both raw numbers and percentage changes to fully understand industry trends.
 
 
