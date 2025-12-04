@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-This project analyzes layoffs data to identify trends and patterns in workforce reductions. The dataset covers the period from 2020 to 2024.
+This project analyzes layoff data to identify trends and patterns in workforce reductions. The dataset covers the period from 2020 to 2024.
 
 Workflow:
 - Data Cleaning 
